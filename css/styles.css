@@ -1,0 +1,41 @@
+.nav{
+    background-color: rgb(58, 57, 57);
+    display: flex;
+    border-style: solid;
+    border-color: rgb(41, 39, 39);
+    border-radius: 10px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 950px
+    
+}
+.nav-title{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-left:10px ;
+}
+.nav-links{
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-between;
+    width: 400px;
+    margin-right: 10px;
+   
+}
+a{
+    color: rgb(168, 166, 166);
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+.active{
+    color: white;
+}
+.btn{
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(15, 131, 139);
+    border-style: solid;
+    border-color: black;
+    box-shadow: 10px 5px 5px black;
+}
